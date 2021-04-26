@@ -1,0 +1,11 @@
+.image-moon-2 {
+    position: absolute;
+    height: 150px;
+    mask: url(#mask-path);
+    -webkit-mask: url(#mask-path);
+    left: 0;
+  }
+  
+  .moon {
+    fill: #d6d5c0;
+  }
