@@ -6,10 +6,22 @@ import { Component, h, State } from '@stencil/core';
 })
 export class SafeMoonCycle {
   @State() moonState = 'm100,0 a20,50 0 1,1 0,150 a20,21 0 1,1 0,-150';
+  @State() date = Date.now();
 
   componentWillLoad() {
+
+		setInterval(()=>{
+			this.date += 86400000/16
+    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
+		},5)
+		console.log(Date.now())
     console.log('test moon comp');
-    this.moonState = this.phase_junk(this.moon_day(new Date()));
+    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)))
+  }
+
+  addOneDay() {
+		this.date += 86400000/4
+    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
   }
 
   // http://www.ben-daglish.net/moon.shtml
@@ -103,6 +115,8 @@ export class SafeMoonCycle {
           <defs>
             <mask id="mask-path" x="0" y="0" width="1" height="1">
               {/* <path class="moon" d="m100,0 a20,50 0 1,1 0,150 a20,21 0 1,1 0,-150"></path> */}
+              {/* <rect x="0" y="0" width="210" height="210" fill="url(#gradient)"  />   */}
+
               <path class="moon" d={this.moonState}></path>
             </mask>
           </defs>
@@ -110,6 +124,7 @@ export class SafeMoonCycle {
           <image class="image-moon-2" xlinkHref="./assets/images/moon/toppng.com-moon-2000x1955.png" width="200" height="200"></image>
         </svg>
       ),
+			<ion-button onClick={()=>this.addOneDay()}>ADD 1/2 DAY</ion-button>
     ];
   }
 }
