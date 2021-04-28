@@ -1,6 +1,6 @@
 import { r as registerInstance, h } from './index-c2c2ebef.js';
 
-const safeMoonCycleCss = ".image-moon-2{position:absolute;height:150px;mask:url(#mask-path);-webkit-mask:url(#mask-path);left:0}.moon{fill:#d6d5c0}";
+const safeMoonCycleCss = ".image-moon-2{position:absolute;height:150px;mask:url(#mask-path);-webkit-mask:url(#mask-path);left:0;z-index:9999;-webkit-filter:grayscale(1) brightness(1.2);filter:grayscale(1) brightness(1.2) invert(1)}.image-moon{filter:brightness(0.1);position:absolute;height:150px;width:150px;border-radius:50% !important;z-index:-9999}.image-sphere{opacity:1;position:absolute;height:157px;mask:url(#mask-path);-webkit-mask:url(#mask-path);margin-left:-1px;z-index:9999;-webkit-filter:brightness(1);filter:grayscale(1) brightness(1) invert(1)}.moon{fill:#d6d5c0}";
 
 const SafeMoonCycle = class {
   constructor(hostRef) {
@@ -10,7 +10,7 @@ const SafeMoonCycle = class {
   }
   componentWillLoad() {
     setInterval(() => {
-      this.date += 86400000 / 16;
+      this.date += 86400000 / 32;
       this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
     }, 5);
     console.log(Date.now());
@@ -18,7 +18,7 @@ const SafeMoonCycle = class {
     this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
   }
   addOneDay() {
-    this.date += 86400000 / 4;
+    this.date += 86400000 / 8;
     this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
   }
   // http://www.ben-daglish.net/moon.shtml
@@ -112,8 +112,8 @@ const SafeMoonCycle = class {
   }
   render() {
     return [
-      this.moonState && (h("svg", { width: "660", height: "220" }, h("defs", null, h("mask", { id: "mask-path", x: "0", y: "0", width: "1", height: "1" }, h("path", { class: "moon", d: this.moonState }))), h("image", { class: "image-moon-2", xlinkHref: "./assets/images/moon/toppng.com-moon-2000x1955.png", width: "200", height: "200" }))),
-      h("ion-button", { onClick: () => this.addOneDay() }, "ADD 1/2 DAY")
+      this.moonState && (h("div", { class: "center-container" }, h("svg", { width: "200", height: "150" }, h("defs", null, h("mask", { id: "mask-path", x: "0", y: "0", width: "1", height: "1" }, h("path", { class: "moon", d: this.moonState }))), h("image", { class: "image-moon-2", xlinkHref: "./assets/images/moon/vangogh.png", width: "200", height: "200" })), h("img", { class: "image-moon", src: "./assets/images/moon/vangogh.png", width: "200", height: "200" }))),
+      // <ion-button onClick={()=>this.addOneDay()}>ADD 1/2 DAY</ion-button>
     ];
   }
 };

@@ -1,6 +1,6 @@
 import { r as registerInstance, n as Build, h, j as Host, k as getElement } from './index-c2c2ebef.js';
-import { a as attachComponent } from './framework-delegate-fa89199b.js';
-import './helpers-00766865.js';
+import { a as attachComponent } from './framework-delegate-67e65899.js';
+import './helpers-345e0e01.js';
 
 const tabCss = ":host(.tab-hidden){display:none !important}";
 

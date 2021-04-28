@@ -16,6 +16,10 @@
   },
   "devDependencies": {
     "@ionic/core": "^5.3.2",
-    "@stencil/core": "^2.0.1"
+    "@stencil/core": "^2.0.1",
+    "@stencil/store": "^1.4.1"
+  },
+  "dependencies": {
+    "set-interval-async": "^2.0.3"
   }
 }

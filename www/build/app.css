@@ -1137,12 +1137,56 @@ sub {
   https://ionicframework.com/docs/theming/color-generator
 */
 
-body {
-  background-color: black;
-  background-image: url("https://www.solarsystemscope.com/textures/download/2k_stars_milky_way.jpg");
-  overflow: hidden;
+.bg-class {
+  --background-repeat: no-repeat;
+  --background-position: center center;
+  --background-attachment: fixed;
+  --background-size: cover;
+  --background: url('https://www.solarsystemscope.com/textures/download/2k_stars_milky_way.jpg');
+  /* -webkit-filter: grayscale(100%) brightness(150%); */
+  /* filter: gray; */
+  /* overflow: hidden; */
 }
 
-.moon {
-  fill: #d6d5c0;
+@font-face {   
+  font-family: 'Orbitron';
+  src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf');
+}
+
+
+@font-face {   
+  font-family: 'Ethnocentric';
+  src: url('../assets/fonts/ethnocentric.ttf');
+}
+
+.safemoon-font {
+  color:white;
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+.safemoon-font-2 {
+  color:white;
+  font-family: 'Ethnocentric', sans-serif !important;
+}
+
+
+.center-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.safemoon-color{
+  color:#249D93!important;
+}
+
+safe-moon-cycle {
+  zoom:1.4;
+}
+
+.smaller {
+  font-size:0.7em;
 }

@@ -9,18 +9,17 @@ export class SafeMoonCycle {
   @State() date = Date.now();
 
   componentWillLoad() {
-
-		setInterval(()=>{
-			this.date += 86400000/16
-    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
-		},5)
-		console.log(Date.now())
+    setInterval(() => {
+      this.date += 86400000 / 32;
+      this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
+    }, 5);
+    console.log(Date.now());
     console.log('test moon comp');
-    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)))
+    this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
   }
 
   addOneDay() {
-		this.date += 86400000/4
+    this.date += 86400000 / 8;
     this.moonState = this.phase_junk(this.moon_day(new Date(this.date)));
   }
 
@@ -111,20 +110,25 @@ export class SafeMoonCycle {
   render() {
     return [
       this.moonState && (
-        <svg width="660" height="220">
-          <defs>
-            <mask id="mask-path" x="0" y="0" width="1" height="1">
-              {/* <path class="moon" d="m100,0 a20,50 0 1,1 0,150 a20,21 0 1,1 0,-150"></path> */}
-              {/* <rect x="0" y="0" width="210" height="210" fill="url(#gradient)"  />   */}
+        <div class="center-container">
+          <svg width="200" height="150" >
+            <defs>
+              <mask id="mask-path" x="0" y="0" width="1" height="1">
+                {/* <path class="moon" d="m100,0 a20,50 0 1,1 0,150 a20,21 0 1,1 0,-150"></path> */}
+                {/* <rect x="0" y="0" width="210" height="210" fill="url(#gradient)"  />   */}
 
-              <path class="moon" d={this.moonState}></path>
-            </mask>
-          </defs>
+                <path class="moon" d={this.moonState}></path>
+              </mask>
+            </defs>
 
-          <image class="image-moon-2" xlinkHref="./assets/images/moon/toppng.com-moon-2000x1955.png" width="200" height="200"></image>
-        </svg>
+            {/* <image class="image-moon-2" xlinkHref="./assets/images/moon/toppng.com-moon-2000x1955.png" width="200" height="200"></image> */}
+            <image class="image-moon-2" xlinkHref="./assets/images/moon/vangogh.png" width="200" height="200"></image>
+            {/* <image class="image-sphere" xlinkHref="./assets/images/wireframe.png" width="202" height="202"/> */}
+          </svg>
+          <img class="image-moon" src="./assets/images/moon/vangogh.png" width="200" height="200"/>
+        </div>
       ),
-			<ion-button onClick={()=>this.addOneDay()}>ADD 1/2 DAY</ion-button>
+      // <ion-button onClick={()=>this.addOneDay()}>ADD 1/2 DAY</ion-button>
     ];
   }
 }

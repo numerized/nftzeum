@@ -12,13 +12,13 @@ const App = class {
       rIC(async () => {
         const isHybrid = isPlatform(window, 'hybrid');
         if (!config.getBoolean('_testing')) {
-          import('./tap-click-a2a5da99.js').then(module => module.startTapClick(config));
+          import('./tap-click-a8f27c37.js').then(module => module.startTapClick(config));
         }
         if (config.getBoolean('statusTap', isHybrid)) {
-          import('./status-tap-5dc99d31.js').then(module => module.startStatusTap());
+          import('./status-tap-2ea113c1.js').then(module => module.startStatusTap());
         }
         if (config.getBoolean('inputShims', needInputShims())) {
-          import('./input-shims-bb6f858a.js').then(module => module.startInputShims(config));
+          import('./input-shims-d2c391d3.js').then(module => module.startInputShims(config));
         }
         const hardwareBackButtonModule = await import('./hardware-back-button-508e48cf.js');
         if (config.getBoolean('hardwareBackButton', isHybrid)) {

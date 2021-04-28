@@ -1,11 +1,40 @@
 .image-moon-2 {
-    position: absolute;
-    height: 150px;
-    mask: url(#mask-path);
-    -webkit-mask: url(#mask-path);
-    left: 0;
-  }
-  
-  .moon {
-    fill: #d6d5c0;
-  }
+  position: absolute;
+  height: 150px;
+  mask: url(#mask-path);
+  -webkit-mask: url(#mask-path);
+  left: 0;
+  z-index: 9999;
+  -webkit-filter: grayscale(1) brightness(1.2);
+  filter: grayscale(1) brightness(1.2) invert(1);
+}
+
+.image-moon {
+  /* opacity: 0.1; */
+  filter: brightness(0.1);
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  /* mask: url(#mask-path); */
+  /* -webkit-mask: url(#mask-path); */
+  /* left: 0; */
+  border-radius: 50% !important;
+  z-index: -9999;
+}
+
+.image-sphere {
+  opacity: 1;
+  position: absolute;
+  height: 157px;
+  mask: url(#mask-path);
+  -webkit-mask: url(#mask-path);
+  margin-left: -1px;
+  z-index: 9999;
+  -webkit-filter: brightness(1);
+  filter: grayscale(1) brightness(1) invert(1);
+
+}
+
+.moon {
+  fill: #d6d5c0;
+}
