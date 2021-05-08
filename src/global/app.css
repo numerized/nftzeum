@@ -41,27 +41,57 @@
   /* overflow: hidden; */
 }
 
-@font-face {   
+
+
+
+
+@font-face {
   font-family: 'Orbitron';
   src: url('../assets/fonts/Orbitron-VariableFont_wght.ttf');
 }
 
-
-@font-face {   
+@font-face {
   font-family: 'Ethnocentric';
   src: url('../assets/fonts/ethnocentric.ttf');
 }
 
+@font-face {
+  font-family: 'UNDECAPPEDvinyl';
+  src: url('../assets/fonts/UNDECAPPEDvinyl.ttf');
+}
+
+@font-face {
+  font-family: 'Grunge';
+  src: url('../assets/fonts/Dabre Grunge.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Charlotte';
+  src: url('../assets/fonts/Charlotte Southern.ttf');
+}
+
+.charlotte-font {
+  font-family: 'Charlotte', sans-serif !important;
+}
+
+
+.grunge-font {
+  font-family: 'Grunge', sans-serif !important;
+}
+
+.nftzeum-font {
+  font-family: 'UNDECAPPEDvinyl', sans-serif !important;
+}
+
 .safemoon-font {
-  color:white;
+  color: white;
   font-family: 'Orbitron', sans-serif !important;
 }
 
 .safemoon-font-2 {
-  color:white;
+  color: white;
   font-family: 'Ethnocentric', sans-serif !important;
 }
-
 
 .center-container {
   padding: 0;
@@ -72,14 +102,14 @@
   justify-content: center;
 }
 
-.safemoon-color{
-  color:#249D93!important;
+.safemoon-color {
+  color: #249d93 !important;
 }
 
 safe-moon-cycle {
-  zoom:1.4;
+  zoom: 1.4;
 }
 
 .smaller {
-  font-size:0.7em;
+  font-size: 0.7em;
 }

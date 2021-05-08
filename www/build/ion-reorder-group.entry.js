@@ -1,5 +1,5 @@
-import { r as registerInstance, f as createEvent, h, j as Host, k as getElement } from './index-c2c2ebef.js';
-import { g as getIonMode } from './ionic-global-1cf78c95.js';
+import { r as registerInstance, i as createEvent, h, k as Host, f as getElement } from './index-341669be.js';
+import { g as getIonMode } from './ionic-global-6df234bb.js';
 import { h as hapticSelectionStart, a as hapticSelectionChanged, b as hapticSelectionEnd } from './haptic-43a3db5a.js';
 
 const reorderGroupCss = ".reorder-list-active>*{transition:transform 300ms;will-change:transform}.reorder-enabled{user-select:none}.reorder-enabled ion-reorder{display:block;cursor:grab;pointer-events:all;touch-action:none}.reorder-selected,.reorder-selected ion-reorder{cursor:grabbing}.reorder-selected{position:relative;transition:none !important;box-shadow:0 0 10px rgba(0, 0, 0, 0.4);opacity:0.8;z-index:100}.reorder-visible ion-reorder .reorder-icon{transform:translate3d(0,  0,  0)}";

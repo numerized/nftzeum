@@ -1,47 +1,5 @@
-import { r as registerInstance, h } from './index-c2c2ebef.js';
-
-var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
-
-function getDefaultExportFromCjs (x) {
-	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
-}
-
-function createCommonjsModule(fn, basedir, module) {
-	return module = {
-		path: basedir,
-		exports: {},
-		require: function (path, base) {
-			return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
-		}
-	}, fn(module, module.exports), module.exports;
-}
-
-function getDefaultExportFromNamespaceIfPresent (n) {
-	return n && Object.prototype.hasOwnProperty.call(n, 'default') ? n['default'] : n;
-}
-
-function getDefaultExportFromNamespaceIfNotNamed (n) {
-	return n && Object.prototype.hasOwnProperty.call(n, 'default') && Object.keys(n).length === 1 ? n['default'] : n;
-}
-
-function getAugmentedNamespace(n) {
-	if (n.__esModule) return n;
-	var a = Object.defineProperty({}, '__esModule', {value: true});
-	Object.keys(n).forEach(function (k) {
-		var d = Object.getOwnPropertyDescriptor(n, k);
-		Object.defineProperty(a, k, d.get ? d : {
-			enumerable: true,
-			get: function () {
-				return n[k];
-			}
-		});
-	});
-	return a;
-}
-
-function commonjsRequire () {
-	throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
-}
+import { r as registerInstance, h } from './index-341669be.js';
+import { c as createCommonjsModule, b as getDefaultExportFromCjs, C as CovalentAPI } from './_commonjsHelpers-54585025.js';
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -320,34 +278,8 @@ exports.setIntervalAsync = setIntervalAsync;
 
 const index = /*@__PURE__*/getDefaultExportFromCjs(dynamic);
 
-const BASE_URL = 'https://api.covalenthq.com/v1/';
-const CHAIN_ID = 56;
-const TOKEN_ID = '0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3';
-const API_KEY = 'ckey_79709e01a4a049a4aa31effc66e';
-class CovalentAPIController {
-  constructor() { }
-  async request(requestString) {
-    let response = await fetch(requestString);
-    return await response.json();
-  }
-  async getTokenHolders(pageSize) {
-    const TOKEN_HOLDERS = `tokens/${TOKEN_ID}/token_holders/?page-size=${pageSize}&format=json&key=${API_KEY}`;
-    let requestString = `${BASE_URL}${CHAIN_ID}/${TOKEN_HOLDERS}`;
-    let response = await this.request(requestString);
-    return response.data.pagination.total_count;
-  }
-  async getTokenBalances(address) {
-    const TOKEN_BALANCES = `address/${address}/balances_v2/?nft=true&format=json&key=${API_KEY}`;
-    let requestString = `${BASE_URL}${CHAIN_ID}/${TOKEN_BALANCES}`;
-    let response = await this.request(requestString);
-    return response;
-  }
-}
-const CovalentAPI = new CovalentAPIController();
-
 const appHomeCss = "";
 
-const WALLET = '0x796fc008cC6c051D84C9D5A7181DD5F0153AbA2c';
 const AppHome = class {
   constructor(hostRef) {
     registerInstance(this, hostRef);
@@ -357,13 +289,20 @@ const AppHome = class {
     this.safemoonBalance = 0;
     this.safemoonWallet = null;
     this.safemoonFarmed = null;
+    this.account = null;
   }
   async componentDidLoad() {
+    if (window['ethereum']) {
+      await window['ethereum'].enable();
+    }
+    console.log('metamask', this.isMetaMaskInstalled());
+    console.log('accounts', this.getMetamaskAccounts());
     this.coingeckoTokenInfos();
-    let tokenBalances = await CovalentAPI.getTokenBalances(WALLET);
+    this.account = await this.getMetamaskAccounts();
+    let tokenBalances = await CovalentAPI.getTokenBalances(this.account, 56, true);
     this.safemoonWallet = tokenBalances.data.items.filter(item => item.contract_name === 'SafeMoon')[0];
     this.safemoonWallet.decimal_balance = this.safemoonWallet.balance / Math.pow(10, this.safemoonWallet.contract_decimals);
-    let safemoonTxsResponse = await this.request('https://api.covalenthq.com/v1/56/address/0x796fc008cC6c051D84C9D5A7181DD5F0153AbA2c/transactions_v2/');
+    let safemoonTxsResponse = await this.request(`https://api.covalenthq.com/v1/56/address/${this.account}/transactions_v2/`);
     console.log(safemoonTxsResponse);
     safemoonTxsResponse.data.items.forEach(item => {
       item.log_events.forEach(element => {
@@ -373,20 +312,20 @@ const AppHome = class {
       });
     });
     this.safemoonTxs.forEach(tx => {
-      if (tx.decoded.params[1].value === WALLET.toLowerCase()) {
+      if (tx.decoded.params[1].value === this.account.toLowerCase()) {
         this.safemoonBalance += Number(tx.decoded.params[2].value);
       }
-      if (tx.decoded.params[0].value === WALLET.toLowerCase()) {
+      if (tx.decoded.params[0].value === this.account.toLowerCase()) {
         this.safemoonBalance -= Number(tx.decoded.params[2].value);
       }
     });
-    this.safemoonBalance = this.safemoonBalance / 1000000000;
+    this.safemoonBalance = this.safemoonBalance / Math.pow(10, this.safemoonWallet.contract_decimals);
     this.safemoonFarmed = this.safemoonWallet.decimal_balance - this.safemoonBalance;
-    this.holdersCount = await CovalentAPI.getTokenHolders(1);
+    this.holdersCount = await CovalentAPI.getTokenHolders(1, 56);
     dynamic.setIntervalAsync(async () => {
       this.coingeckoTokenInfos();
       this.safemoonFarmed = this.safemoonWallet.decimal_balance - this.safemoonBalance;
-      this.holdersCount = await CovalentAPI.getTokenHolders(1);
+      this.holdersCount = await CovalentAPI.getTokenHolders(1, 56);
     }, 60000 * 5);
   }
   async coingeckoTokenInfos() {
@@ -398,6 +337,18 @@ const AppHome = class {
     let response = await fetch(requestString);
     return await response.json();
   }
+  //Created check function to see if the MetaMask extension is installed
+  isMetaMaskInstalled() {
+    //Have to check the ethereum binding on the window object to see if it's installed
+    return Boolean(window['ethereum'] && window['ethereum'].isMetaMask);
+  }
+  async getMetamaskAccounts() {
+    //we use eth_accounts because it returns a list of addresses owned by us.
+    const accounts = await window['ethereum'].request({ method: 'eth_accounts' });
+    console.log('accounts', accounts[0]);
+    return accounts[0];
+    //We take the first address in the array of addresses and display it
+  }
   render() {
     return [
       // <ion-header>
@@ -406,6 +357,7 @@ const AppHome = class {
       //   </ion-toolbar>
       // </ion-header>,
       h("ion-content", { class: "ion-padding bg-class center-container" }, h("br", null), h("safe-moon-cycle", { class: "center-container" }), h("br", null), this.safemoonBalance && h("h1", { class: "safemoon-font center-container safemoon-color" }, this.safemoonWallet.decimal_balance.commarize()), h("h1", { class: "safemoon-font-2 center-container ion-text-center" }, "SafeMoon"), h("br", null), h("br", null), h("h6", { class: "safemoon-font-2 center-container ion-text-center" }, "holding reward"), this.safemoonFarmed && h("h2", { class: "safemoon-font center-container ion-text-center safemoon-color" }, this.safemoonFarmed.commarize()), h("br", null), h("br", null), h("h6", { class: "safemoon-font-2 center-container ion-text-center" }, "Price"), this.safemoonInfos && h("h2", { class: "safemoon-font center-container safemoon-color" }, this.safemoonInfos.market_data.current_price.usd, "$"), h("br", null), h("br", null), this.safemoonInfos && (h("span", null, h("h6", { class: "safemoon-font-2 center-container ion-text-center" }, "Price Change"), h("ion-row", null, h("ion-col", null, h("p", { class: "safemoon-font-2 center-container ion-text-center smaller" }, "24h"), h("p", { class: "safemoon-font safemoon-color center-container ion-text-center" }, this.safemoonInfos.market_data.price_change_percentage_24h.toFixed(1), "%")), h("ion-col", null, h("p", { class: "safemoon-font-2 center-container ion-text-center smaller" }, "7d"), h("p", { class: "safemoon-font safemoon-color center-container ion-text-center" }, this.safemoonInfos.market_data.price_change_percentage_7d.toFixed(1), "%")), h("ion-col", null, h("p", { class: "safemoon-font-2 center-container ion-text-center smaller" }, "14d"), h("p", { class: "safemoon-font safemoon-color center-container ion-text-center" }, this.safemoonInfos.market_data.price_change_percentage_14d.toFixed(1), "%")), h("ion-col", null, h("p", { class: "safemoon-font-2 center-container ion-text-center smaller" }, "30d"), h("p", { class: "safemoon-font safemoon-color center-container ion-text-center" }, this.safemoonInfos.market_data.price_change_percentage_30d.toFixed(1), "%"))))), h("br", null), h("br", null), h("h6", { class: "safemoon-font-2 center-container ion-text-center" }, "Holders"), this.holdersCount && h("h2", { class: "safemoon-font center-container safemoon-color" }, this.holdersCount.commarize())),
+      h("ion-footer", { class: "ion-no-border" }, h("ion-toolbar", null, h("ion-buttons", { slot: "start" }, h("ion-button", { slot: "start" }, h("ion-icon", { slot: "icon-only", name: "caret-forward-outline" }))), h("ion-buttons", { slot: "end" }, h("ion-button", null, h("ion-icon", { slot: "icon-only", name: "radio-outline" }))), h("ion-title", null, "Artist - Title"))),
     ];
   }
 };

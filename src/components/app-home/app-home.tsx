@@ -2,7 +2,7 @@ import { Component, h, State } from '@stencil/core';
 import { setIntervalAsync } from 'set-interval-async/dynamic';
 import { CovalentAPI } from '../../services/covalent-api';
 
-const WALLET = '0x796fc008cC6c051D84C9D5A7181DD5F0153AbA2c';
+// const WALLET = '0x796fc008cC6c051D84C9D5A7181DD5F0153AbA2c';
 
 @Component({
   tag: 'app-home',
@@ -15,15 +15,24 @@ export class AppHome {
   @State() safemoonBalance: any = 0;
   @State() safemoonWallet: any = null;
   @State() safemoonFarmed: any = null;
+  @State() account: any = null;
 
   async componentDidLoad() {
+    if (window['ethereum']) {
+      await window['ethereum'].enable();
+    }
+
+    console.log('metamask', this.isMetaMaskInstalled());
+    console.log('accounts', this.getMetamaskAccounts());
     this.coingeckoTokenInfos();
 
-    let tokenBalances = await CovalentAPI.getTokenBalances(WALLET);
+    this.account = await this.getMetamaskAccounts();
+
+    let tokenBalances = await CovalentAPI.getTokenBalances(this.account, 56, true);
     this.safemoonWallet = tokenBalances.data.items.filter(item => item.contract_name === 'SafeMoon')[0];
     this.safemoonWallet.decimal_balance = this.safemoonWallet.balance / Math.pow(10, this.safemoonWallet.contract_decimals);
 
-    let safemoonTxsResponse = await this.request('https://api.covalenthq.com/v1/56/address/0x796fc008cC6c051D84C9D5A7181DD5F0153AbA2c/transactions_v2/');
+    let safemoonTxsResponse = await this.request(`https://api.covalenthq.com/v1/56/address/${this.account}/transactions_v2/`);
     console.log(safemoonTxsResponse);
 
     safemoonTxsResponse.data.items.forEach(item => {
@@ -35,23 +44,23 @@ export class AppHome {
     });
 
     this.safemoonTxs.forEach(tx => {
-      if (tx.decoded.params[1].value === WALLET.toLowerCase()) {
+      if (tx.decoded.params[1].value === this.account.toLowerCase()) {
         this.safemoonBalance += Number(tx.decoded.params[2].value);
       }
-      if (tx.decoded.params[0].value === WALLET.toLowerCase()) {
+      if (tx.decoded.params[0].value === this.account.toLowerCase()) {
         this.safemoonBalance -= Number(tx.decoded.params[2].value);
       }
     });
 
-    this.safemoonBalance = this.safemoonBalance / 1000000000;
+    this.safemoonBalance = this.safemoonBalance / Math.pow(10, this.safemoonWallet.contract_decimals);
     this.safemoonFarmed = this.safemoonWallet.decimal_balance - this.safemoonBalance;
 
-    this.holdersCount = await CovalentAPI.getTokenHolders(1);
+    this.holdersCount = await CovalentAPI.getTokenHolders(1, 56);
 
     setIntervalAsync(async () => {
       this.coingeckoTokenInfos();
       this.safemoonFarmed = this.safemoonWallet.decimal_balance - this.safemoonBalance;
-      this.holdersCount = await CovalentAPI.getTokenHolders(1);
+      this.holdersCount = await CovalentAPI.getTokenHolders(1, 56);
     }, 60000 * 5);
   }
 
@@ -65,6 +74,20 @@ export class AppHome {
   async request(requestString) {
     let response = await fetch(requestString);
     return await response.json();
+  }
+
+  //Created check function to see if the MetaMask extension is installed
+  isMetaMaskInstalled() {
+    //Have to check the ethereum binding on the window object to see if it's installed
+    return Boolean(window['ethereum'] && window['ethereum'].isMetaMask);
+  }
+
+  async getMetamaskAccounts() {
+    //we use eth_accounts because it returns a list of addresses owned by us.
+    const accounts = await window['ethereum'].request({ method: 'eth_accounts' });
+    console.log('accounts', accounts[0]);
+    return accounts[0];
+    //We take the first address in the array of addresses and display it
   }
 
   render() {
@@ -118,12 +141,22 @@ export class AppHome {
         <br />
         <h6 class="safemoon-font-2 center-container ion-text-center">Holders</h6>
         {this.holdersCount && <h2 class="safemoon-font center-container safemoon-color">{this.holdersCount.commarize()}</h2>}
-        {/* "price_change_24h": -6e-7,
-    "price_change_percentage_24h": -11.43456,
-    "price_change_percentage_7d": -19.41795,
-    "price_change_percentage_14d": 537.90819,
-    "price_change_percentage_30d": 1076.99463, */}
       </ion-content>,
+      <ion-footer class="ion-no-border">
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-button slot="start">
+              <ion-icon slot="icon-only" name="caret-forward-outline"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+          <ion-buttons slot="end">
+            <ion-button>
+              <ion-icon slot="icon-only" name="radio-outline"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+          <ion-title>Artist - Title</ion-title>
+        </ion-toolbar>
+      </ion-footer>,
     ];
   }
 }

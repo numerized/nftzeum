@@ -1,4 +1,4 @@
-import { r as registerInstance, h } from './index-c2c2ebef.js';
+import { r as registerInstance, h } from './index-341669be.js';
 
 const safeMoonCycleCss = ".image-moon-2{position:absolute;height:150px;mask:url(#mask-path);-webkit-mask:url(#mask-path);left:0;z-index:9999;-webkit-filter:grayscale(1) brightness(1.2);filter:grayscale(1) brightness(1.2) invert(1)}.image-moon{filter:brightness(0.1);position:absolute;height:150px;width:150px;border-radius:50% !important;z-index:-9999}.image-sphere{opacity:1;position:absolute;height:157px;mask:url(#mask-path);-webkit-mask:url(#mask-path);margin-left:-1px;z-index:9999;-webkit-filter:brightness(1);filter:grayscale(1) brightness(1) invert(1)}.moon{fill:#d6d5c0}";
 
@@ -104,6 +104,7 @@ const SafeMoonCycle = class {
     else if (phase <= 0.9375) {
       unicode_moon = '\uD83C\uDF18';
     }
+    console.log(unicode_moon);
     // http://www.w3.org/TR/SVG/paths.html#PathDataEllipticalArcCommands
     var d = 'm100,0 ';
     d = d + 'a' + mag + ',20 0 1,' + sweep[0] + ' 0,150 ';

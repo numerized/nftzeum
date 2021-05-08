@@ -1,0 +1,113 @@
+ion-slides {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em !important;
+  font-weight: 100 !important;
+  color: #2d2d2d !important;
+}
+
+h4 {
+  font-size: 3em !important;
+  font-weight: 100 !important;
+  color: #5a5a5a !important;
+}
+
+.bg-class-original {
+  filter: blur(0.2px) sepia(0.1);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover !important;
+  background: url('../../assets/images/grungy-white-background-of-natural-cement-or-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-or-construction.jpg');
+  /* -webkit-filter: grayscale(100%) brightness(150%); */
+  /* filter: gray; */
+  /* overflow: hidden; */
+}
+
+.bg-class-flipped {
+  filter: blur(0.2px) sepia(0.1);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover !important;
+  background: url('../../assets/images/grungy-white-background-of-natural-cement-or-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-or-construction1.jpg');
+  /* -webkit-filter: grayscale(100%) brightness(150%); */
+  /* filter: gray; */
+  /* overflow: hidden; */
+}
+
+.bg-text {
+  backdrop-filter: blur(1px);
+  background-color: rgb(253 248 240 / 40%);
+  /* background-color: rgb(219, 217, 199); */
+  /* background-color: rgba(241, 241, 241, 0.4); */
+  color: black;
+  font-weight: bold;
+  /* border: 1px solid #606060; */
+  box-shadow: 0 0 2px rgb(253, 249, 241), 0 0 5px rgb(253, 249, 241), 0 0 10px rgb(253, 249, 241), 0 0 15px rgb(253, 249, 241), 0 0 20px rgb(253, 249, 241),
+    0 0 25px rgb(253, 249, 241);
+  position: relative;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  height: 80%;
+  /* overflow: hidden; */
+}
+
+.bg-text .logos {
+  height: 40px !important;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.bg-text img {
+  max-height: 500px !important;
+}
+
+.image-container {
+  height: 100%;
+  display: flex;
+  justify-content: center !important;
+  padding: 4px;
+}
+
+.visit-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.description {
+  /* overflow: hidden; */
+  height: 300px;
+  /* white-space: nowrap; */
+  overflow: scroll;
+  font-size: 1em !important;
+}
+
+.pagination {
+  position: absolute;
+  right: 30px;
+  bottom: 80px;
+}
+
+.music-title {
+  margin-top: 6px !important;
+}
+
+.music-image img {
+  float: right!important;
+  margin:5px!important;
+  width: auto!important;
+  height: 53px;
+}

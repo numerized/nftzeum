@@ -100,6 +100,8 @@ export class SafeMoonCycle {
       unicode_moon = '\uD83C\uDF18';
     }
 
+    console.log(unicode_moon)
+
     // http://www.w3.org/TR/SVG/paths.html#PathDataEllipticalArcCommands
     var d = 'm100,0 ';
     d = d + 'a' + mag + ',20 0 1,' + sweep[0] + ' 0,150 ';

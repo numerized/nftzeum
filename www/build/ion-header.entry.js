@@ -1,6 +1,6 @@
-import { i as readTask, l as writeTask, r as registerInstance, h, j as Host, k as getElement } from './index-c2c2ebef.js';
-import { g as getIonMode } from './ionic-global-1cf78c95.js';
-import { f as clamp } from './helpers-345e0e01.js';
+import { j as readTask, l as writeTask, r as registerInstance, h, k as Host, f as getElement } from './index-341669be.js';
+import { g as getIonMode } from './ionic-global-6df234bb.js';
+import { f as clamp } from './helpers-00766865.js';
 
 const TRANSITION = 'all 0.2s ease-in-out';
 const cloneElement = (tagName) => {

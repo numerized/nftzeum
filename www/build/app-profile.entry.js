@@ -1,4 +1,4 @@
-import { r as registerInstance, h } from './index-c2c2ebef.js';
+import { r as registerInstance, h } from './index-341669be.js';
 
 function sayHello() {
   return Math.random() < 0.5 ? 'Hello' : 'Hola';
