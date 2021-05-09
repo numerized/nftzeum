@@ -111,3 +111,30 @@ p {
   width: auto!important;
   height: 53px;
 }
+
+.logo-rocki-container {
+    padding-top:5px;
+    width: 134px;
+    height: auto;
+    border-radius: 6px;
+    background-color: black;
+}
+
+.logo-rocki {
+    width: 104px;
+    height: auto;
+}
+
+.mini-logo-rocki-container {
+    position:absolute;
+    width: 18px;
+    height: auto;
+    right:12px;
+    bottom:10px
+}
+
+.mini-logo-rocki {
+    width: 12px;
+    height: auto;
+}
+
