@@ -1,0 +1,59 @@
+# Rhino
+newmtl Metal_Basique_1K
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.4039 0.4039 0.4039
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 175.1515
+map_Bump bump_hatch.png
+newmtl Marbre_Noir_1K
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 194.9138
+map_Kd 37_Roma marble PBR texture-seamless.jpg
+newmtl Grass_Light_Green
+Ka 0.0000 0.0000 0.0000
+Kd 0.5647 0.6471 0.2824
+Ks 0.3294 0.3294 0.3294
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd Grass_Light_Green.jpg
+newmtl Mur_clair_1k
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 0.8000 0.8000 0.8000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 204.0000
+map_Kd 8_concrete bare clean texture-seamless_Diffuse.jpg
+map_Bump 8_concrete bare clean texture-seamless_Normal.png
+newmtl Mur_Pierre_Sable_1K
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 0.8000 0.8000 0.8000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 204.0000
+map_Kd 1K-stone_wall_3-diffuse.jpg
+map_Bump 1K-stone_wall_3-normal.jpg
+newmtl Bois_Lisse_Clair_1K
+Ka 0.0000 0.0000 0.0000
+Kd 0.9804 0.9804 0.9804
+Ks 0.8000 0.8000 0.8000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 204.0000
+map_Kd 1K-wood_fine_10-diffuse.jpg
+map_Bump 1K-wood_fine_10-normal.jpg
+newmtl Emission
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.9804 0.9804 0.9804
+d 1.0000
+Ns 0.0000

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Composite</title>
+    <meta name="description" content="Composite — A-Frame" />
+    
+  </head>
+  <body>
+    <a-scene renderer="colorManagement: true;">
+      <a-assets>
+        <!-- <a-asset-item id="tree-obj" src="1.obj"></a-asset-item>
+        <a-asset-item id="tree-mtl" src="1.mtl"></a-asset-item> -->
+        <a-asset-item id="tree" src="3.gltf"></a-asset-item>
+        <!-- <img id="pdx" src="portland.png" /> -->
+        <a-asset-item id="sculpture" src="sculpture.glb"></a-asset-item>
+
+        <!-- <img id="lake" src="lake.jpg" /> -->
+      </a-assets>
+
+      <!-- <a-image
+        src="#pdx"
+        width="10"
+        height="5"
+        position="-2 1.2 -3"
+        scale="0.2 0.2 0.2"
+      ></a-image> -->
+
+      <!-- {active: true, seed: 11, skyType: 'gradient', skyColor: '#239849', horizonColor: '#cfe0af', lighting: 'distant', lightPosition: { x: 0.5, y: 1, z: 0}, fog: 0.8, flatShading: true, playArea: 1, ground: 'canyon', groundYScale: 9.76, groundTexture: 'walkernoise', groundColor: '#C66344', groundColor2: '#c96b4b', dressing: 'stones', dressingAmount: 500, dressingColor: '#C66344', dressingScale: 0.06, dressingVariance: { x: 0.2, y: 0.1, z: 0.2}, dressingUniformScale: true, dressingOnPlayArea: 1, grid: 'none', gridColor: '#239893', shadow: false}, -->
+
+      <a-gltf-model
+        src="#sculpture"
+        scale="0.2 0.2 0.2"
+        position="2.6 1.4 -18.5"
+      ></a-gltf-model>
+
+      <a-entity
+        environment="preset: yavapai; skyType: atmospheric; skyColor: #fdfa99; horizonColor: #fdfa99; lighting: distant; lightPosition: 0.5 1 0; fog: 0.9; flatShading: true; playArea: 1; ground: hills; groundYScale: 9.76; groundTexture: walkernoise; groundColor: #C66344; groundColor2: #c96b4b; dressing: pyramids; dressingAmount: 1; dressingColor: #C66344; dressingScale: 50; dressingVariance: 0 0 1; dressingUniformScale: false; dressingOnPlayArea: 10; grid: none; gridColor: #239893; shadow: true; shadowSize:1"
+      ></a-entity>
+
+      <!-- <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity> -->
+      <a-entity gltf-model="#tree"></a-entity>
+    </a-scene>
+  </body>
+</html>

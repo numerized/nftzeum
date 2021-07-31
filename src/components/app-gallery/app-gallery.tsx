@@ -61,10 +61,11 @@ export class AppGallery {
 
     pranksyWallet['data']['items'].map(async item => {
       if (item.contract_name === 'Rarible') {
-        // console.log(item);
+        console.log(item);
 
         if (item.nft_data) {
           item.nft_data = item.nft_data.filter(nftItem => nftItem.owner !== null);
+          console.log(item.nft_data)
           this.totalNftCount += item.nft_data.length;
           for (let i = 0; i < item.nft_data.length; i++) {
             await limit();
@@ -83,12 +84,38 @@ export class AppGallery {
               });
           }
         }
-
-        // console.log(this.raribleItems)
-        // item.map(nft => {
-        //   this.raribleItems.push(nft);
-        // });
       }
+
+      if (item.contract_name === 'OpenSea Shared Storefront') {
+        // console.log(item);
+
+        if (item.nft_data) {
+          // item.nft_data = item.nft_data.filter(nftItem => nftItem.owner !== null);
+          this.totalNftCount += item.nft_data.length;
+          for (let i = 0; i < item.nft_data.length; i++) {
+            await limit();
+            fetch(`https://api.covalenthq.com/v1/1/tokens/${item.contract_address}/nft_metadata/${item.nft_data[i].token_id}/?format=json&key=ckey_79709e01a4a049a4aa31effc66e`)
+              .then(res => res.json())
+              .then(out => {
+                console.log('out', out);
+                if (out && out.data.items[0].nft_data[0].external_data) {
+                  this.images.push(out.data.items[0].nft_data[0].external_data);
+                  this.images = [...this.images];
+                  this.nftCounter++;
+                }
+                //   this.slidesComponent.update();
+              })
+              .catch(err => {
+                throw err;
+              });
+          }
+        }
+      }
+
+      // console.log(this.raribleItems)
+      // item.map(nft => {
+      //   this.raribleItems.push(nft);
+      // });
     });
 
     console.log(this.raribleItems);
@@ -294,8 +321,20 @@ export class AppGallery {
             <ion-col class="ion-text-end music-image">
               {this.music && <img class="music-image" src={this.music.image} />}
               <div class="mini-logo-rocki-container">
-              <svg class="mini-logo-rocki" width="138" height="138" viewBox="0 0 138 138" fill="none"><path d="M123.353 0H16C7.16344 0 0 7.16344 0 16V122C0 130.837 7.16344 138 16 138H123.353C132.19 138 139.353 130.837 139.353 122V16C139.353 7.16344 132.19 0 123.353 0Z" fill="#E31D38"></path><path data-v-e7c0ecf0="" fill-rule="evenodd" clip-rule="evenodd" d="M48.7056 25.7057H60.882V108.235H48.7056V25.7057ZM33.8232 75.7646H45.9997V102.823H33.8232V75.7646ZM75.7644 64.9411H63.588V113.647H75.7644V64.9411ZM78.4703 70.3528H90.6468V108.235H78.4703V70.3528ZM105.529 41.9411H93.3526V102.823H105.529V41.9411Z" fill="#FFFAFA"></path></svg>
-                  </div>
+                <svg class="mini-logo-rocki" width="138" height="138" viewBox="0 0 138 138" fill="none">
+                  <path
+                    d="M123.353 0H16C7.16344 0 0 7.16344 0 16V122C0 130.837 7.16344 138 16 138H123.353C132.19 138 139.353 130.837 139.353 122V16C139.353 7.16344 132.19 0 123.353 0Z"
+                    fill="#E31D38"
+                  ></path>
+                  <path
+                    data-v-e7c0ecf0=""
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M48.7056 25.7057H60.882V108.235H48.7056V25.7057ZM33.8232 75.7646H45.9997V102.823H33.8232V75.7646ZM75.7644 64.9411H63.588V113.647H75.7644V64.9411ZM78.4703 70.3528H90.6468V108.235H78.4703V70.3528ZM105.529 41.9411H93.3526V102.823H105.529V41.9411Z"
+                    fill="#FFFAFA"
+                  ></path>
+                </svg>
+              </div>
               {this.sound && (
                 <ion-button fill="clear" size="large" shape="round" color="dark" onClick={() => this.playPausePlayer()}>
                   {!this.sound.playing() && <ion-icon name="play-outline"></ion-icon>}

@@ -6,10 +6,14 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface AppAframeMuseum {
+    }
     interface AppGallery {
         "slidesComponent": any;
     }
     interface AppHome {
+    }
+    interface AppIsland {
     }
     interface AppProfile {
         "name": string;
@@ -20,6 +24,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLAppAframeMuseumElement extends Components.AppAframeMuseum, HTMLStencilElement {
+    }
+    var HTMLAppAframeMuseumElement: {
+        prototype: HTMLAppAframeMuseumElement;
+        new (): HTMLAppAframeMuseumElement;
+    };
     interface HTMLAppGalleryElement extends Components.AppGallery, HTMLStencilElement {
     }
     var HTMLAppGalleryElement: {
@@ -31,6 +41,12 @@ declare global {
     var HTMLAppHomeElement: {
         prototype: HTMLAppHomeElement;
         new (): HTMLAppHomeElement;
+    };
+    interface HTMLAppIslandElement extends Components.AppIsland, HTMLStencilElement {
+    }
+    var HTMLAppIslandElement: {
+        prototype: HTMLAppIslandElement;
+        new (): HTMLAppIslandElement;
     };
     interface HTMLAppProfileElement extends Components.AppProfile, HTMLStencilElement {
     }
@@ -51,18 +67,24 @@ declare global {
         new (): HTMLSafeMoonCycleElement;
     };
     interface HTMLElementTagNameMap {
+        "app-aframe-museum": HTMLAppAframeMuseumElement;
         "app-gallery": HTMLAppGalleryElement;
         "app-home": HTMLAppHomeElement;
+        "app-island": HTMLAppIslandElement;
         "app-profile": HTMLAppProfileElement;
         "app-root": HTMLAppRootElement;
         "safe-moon-cycle": HTMLSafeMoonCycleElement;
     }
 }
 declare namespace LocalJSX {
+    interface AppAframeMuseum {
+    }
     interface AppGallery {
         "slidesComponent"?: any;
     }
     interface AppHome {
+    }
+    interface AppIsland {
     }
     interface AppProfile {
         "name"?: string;
@@ -72,8 +94,10 @@ declare namespace LocalJSX {
     interface SafeMoonCycle {
     }
     interface IntrinsicElements {
+        "app-aframe-museum": AppAframeMuseum;
         "app-gallery": AppGallery;
         "app-home": AppHome;
+        "app-island": AppIsland;
         "app-profile": AppProfile;
         "app-root": AppRoot;
         "safe-moon-cycle": SafeMoonCycle;
@@ -83,8 +107,10 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "app-aframe-museum": LocalJSX.AppAframeMuseum & JSXBase.HTMLAttributes<HTMLAppAframeMuseumElement>;
             "app-gallery": LocalJSX.AppGallery & JSXBase.HTMLAttributes<HTMLAppGalleryElement>;
             "app-home": LocalJSX.AppHome & JSXBase.HTMLAttributes<HTMLAppHomeElement>;
+            "app-island": LocalJSX.AppIsland & JSXBase.HTMLAttributes<HTMLAppIslandElement>;
             "app-profile": LocalJSX.AppProfile & JSXBase.HTMLAttributes<HTMLAppProfileElement>;
             "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
             "safe-moon-cycle": LocalJSX.SafeMoonCycle & JSXBase.HTMLAttributes<HTMLSafeMoonCycleElement>;

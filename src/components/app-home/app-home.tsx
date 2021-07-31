@@ -32,7 +32,7 @@ export class AppHome {
     this.safemoonWallet = tokenBalances.data.items.filter(item => item.contract_name === 'SafeMoon')[0];
     this.safemoonWallet.decimal_balance = this.safemoonWallet.balance / Math.pow(10, this.safemoonWallet.contract_decimals);
 
-    let safemoonTxsResponse = await this.request(`https://api.covalenthq.com/v1/56/address/${this.account}/transactions_v2/`);
+    let safemoonTxsResponse = await this.request(`https://api.covalenthq.com/v1/56/address/${this.account}/transactions_v2/?key=ckey_79709e01a4a049a4aa31effc66e`);
     console.log(safemoonTxsResponse);
 
     safemoonTxsResponse.data.items.forEach(item => {
@@ -69,6 +69,7 @@ export class AppHome {
 
     let safemoonInfosResponse = await this.request(coingeckoSafemoonRequest);
     this.safemoonInfos = safemoonInfosResponse;
+    // console.log(this.safemoonInfos)
   }
 
   async request(requestString) {
@@ -104,6 +105,7 @@ export class AppHome {
         <br />
         {this.safemoonBalance && <h1 class="safemoon-font center-container safemoon-color">{this.safemoonWallet.decimal_balance.commarize()}</h1>}
         <h1 class="safemoon-font-2 center-container ion-text-center">SafeMoon</h1>
+        {this.safemoonInfos && <h1 class="safemoon-font-2 center-container ion-text-center">#{this.safemoonInfos.market_cap_rank}</h1>}
         <br />
         <br />
         <h6 class="safemoon-font-2 center-container ion-text-center">holding reward</h6>
@@ -138,6 +140,9 @@ export class AppHome {
           </span>
         )}
         <br />
+        <br />
+        <h6 class="safemoon-font-2 center-container ion-text-center">Market Cap</h6>
+        {this.safemoonInfos && <h2 class="safemoon-font center-container safemoon-color">{this.safemoonInfos.market_data.market_cap.usd.commarize()}</h2>}
         <br />
         <h6 class="safemoon-font-2 center-container ion-text-center">Holders</h6>
         {this.holdersCount && <h2 class="safemoon-font center-container safemoon-color">{this.holdersCount.commarize()}</h2>}

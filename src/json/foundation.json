@@ -1,0 +1,1622 @@
+{
+  "data": {
+    "address": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af",
+    "updated_at": "2021-05-12T10:49:00.893067465Z",
+    "next_update_at": "2021-05-12T10:54:00.893067905Z",
+    "quote_currency": "USD",
+    "chain_id": 1,
+    "items": [
+      {
+        "contract_decimals": 18,
+        "contract_name": "Ether",
+        "contract_ticker_symbol": "ETH",
+        "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "supports_erc": null,
+        "logo_url": "https://logos.covalenthq.com/tokens/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+        "type": "cryptocurrency",
+        "balance": "259742281198408976",
+        "quote_rate": 4260.9507,
+        "quote": 1106.749,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 18,
+        "contract_name": "Wrapped Ether",
+        "contract_ticker_symbol": "WETH",
+        "contract_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png",
+        "type": "cryptocurrency",
+        "balance": "200000000000000000",
+        "quote_rate": 4221.32,
+        "quote": 844.264,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 18,
+        "contract_name": "Friends With Benefits Pro",
+        "contract_ticker_symbol": "FWB",
+        "contract_address": "0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8.png",
+        "type": "cryptocurrency",
+        "balance": "55000000000000000000",
+        "quote_rate": 10.508742,
+        "quote": 577.98083,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 18,
+        "contract_name": "Rarible",
+        "contract_ticker_symbol": "RARI",
+        "contract_address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xfca59cd816ab1ead66534d82bc21e7515ce441cf.png",
+        "type": "cryptocurrency",
+        "balance": "1155216009228710000",
+        "quote_rate": 15.686677,
+        "quote": 18.1215,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "MakersTokenV2",
+        "contract_ticker_symbol": "MKT2",
+        "contract_address": "0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756.png",
+        "type": "cryptocurrency",
+        "balance": "1",
+        "quote_rate": null,
+        "quote": 0,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "SuperRare",
+        "contract_ticker_symbol": "SUPR",
+        "contract_address": "0xb932a70a57673d89f4acffbe830e8ed7f75fb9e0",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xb932a70a57673d89f4acffbe830e8ed7f75fb9e0.png",
+        "type": "nft",
+        "balance": "0",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "ENS: Base Registrar",
+        "contract_ticker_symbol": "ENS",
+        "contract_address": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "18849805456461017180195486657943336755430815758144107250604762290602696730313",
+            "token_balance": "1",
+            "token_url": null,
+            "supports_erc": ["erc20"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "maalavidaa.eth",
+              "description": "`maalavidaa.eth`, an ENS name.",
+              "image": "https://lh3.googleusercontent.com/lLEsjSC11wBVq5vCLPBU4iS5JYvJYisoR_EJ4saa3xI5AKAxO9r0bN-V0KHHIPASadyYdSjnk6OlEEqzy78aOpcDqq4CIww0UvYZog=s128",
+              "external_url": "https://api.opensea.io/api/v1/asset/0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85/18849805456461017180195486657943336755430815758144107250604762290602696730313",
+              "attributes": [{ "trait_type": "Length", "value": "10" }],
+              "owner": "maalavidaa"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Rarible",
+        "contract_ticker_symbol": "RARI",
+        "contract_address": "0x60f80121c31a0d46b5279700f9df786054aa5ee5",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x60f80121c31a0d46b5279700f9df786054aa5ee5.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "248544",
+            "token_balance": "1",
+            "token_url": "https://ipfs.daonomic.com/ipfs/QmSiXSVtpPPXx7jJwX59fq7yxxVggMX6PTAsqTHuqycSGZ",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "magic#boi",
+              "description": "Head: Galaxy Goo\nEyes: Two, Round, Zinc\nNose: Zinc\nMouth: Missing\nBust: Galaxy Goo\nBackdrop: Black\nSeries: Honors (03)\n#: 01",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmNnvWuoDajdDyny2rVymNMdySFaQ9rak3CYQ86C7nQuhJ/image.png",
+              "external_url": "https://app.rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:248544",
+              "attributes": [],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 18,
+        "contract_name": "Dai Stablecoin",
+        "contract_ticker_symbol": "DAI",
+        "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x6b175474e89094c44da98b954eedeac495271d0f.png",
+        "type": "dust",
+        "balance": "0",
+        "quote_rate": 0.9911354,
+        "quote": 0,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "BCAEX",
+        "contract_ticker_symbol": "BCA",
+        "contract_address": "0x383d66e7e66b388b754a24bc0325f1f6a168548e",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x383d66e7e66b388b754a24bc0325f1f6a168548e.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "367",
+            "token_balance": "1",
+            "token_url": "https://bcaex.co/api/nftDetail?uid=9eb0d50e-8f05-11eb-a3f1-00163e005fd7&t=1616853986",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": null,
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Chubbies",
+        "contract_ticker_symbol": "CHUBBIES",
+        "contract_address": "0x1db61fc42a843bad4d91a2d788789ea4055b8613",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x1db61fc42a843bad4d91a2d788789ea4055b8613.png",
+        "type": "nft",
+        "balance": "3",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "59",
+            "token_balance": "1",
+            "token_url": "https://gateway.pinata.cloud/ipfs/QmXDvsnPyo9iPQHv7KtoDzjp57FMTi7cvkFFuWUApY8kro/59",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Chubbies #59",
+              "description": "Chubbies are 10000 programmatically generated cute things living on the Ethereum Blockchain. Chubbies are cute and cuteness is justice, so Chubbies are JUSTICE.",
+              "image": "https://lh3.googleusercontent.com/By2avS-0hs7c7vlfeRez0UyMmpoEzZlKFIzagTdXYLZWpT5179WQrIWkDm0ypIAFnhfGKZzdLlgdUshpx_MOqf2zO3zaD0H2Mom4NR8=s128",
+              "external_url": "https://api.opensea.io/api/v1/asset/0x1db61fc42a843bad4d91a2d788789ea4055b8613/59",
+              "attributes": [
+                { "trait_type": "Top Costume", "value": "Banana" },
+                { "trait_type": "Head Race", "value": "Human" },
+                { "trait_type": "Hairstyle", "value": "Short" },
+                { "trait_type": "Human Skin Tone", "value": "dark" },
+                { "trait_type": "Token", "value": "Heart" },
+                { "trait_type": "Method", "value": "Natural" },
+                { "trait_type": "Set", "value": "Nah" },
+                { "trait_type": "Face", "value": "o_o Blushed" },
+                { "trait_type": "Bottom Costume", "value": "Cat" },
+                { "trait_type": "Background", "value": "Lavender Blue" }
+              ],
+              "owner": "maalavidaa"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "61",
+            "token_balance": "1",
+            "token_url": "https://gateway.pinata.cloud/ipfs/QmXDvsnPyo9iPQHv7KtoDzjp57FMTi7cvkFFuWUApY8kro/61",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": null,
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "62",
+            "token_balance": "1",
+            "token_url": "https://gateway.pinata.cloud/ipfs/QmXDvsnPyo9iPQHv7KtoDzjp57FMTi7cvkFFuWUApY8kro/62",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Chubbies #62",
+              "description": "Chubbies are 10000 programmatically generated cute things living on the Ethereum Blockchain. Chubbies are cute and cuteness is justice, so Chubbies are JUSTICE.",
+              "image": "https://gateway.pinata.cloud/ipfs/QmNdNTQVE4BUpERFwVTxX2RwZNbTCSwQr5pZ83EJJsBfWW/62.gif",
+              "external_url": "https://chubbies.io",
+              "attributes": [
+                { "trait_type": "Top Costume", "value": "Penguin" },
+                { "trait_type": "Bottom Costume", "value": "Chicken" },
+                { "trait_type": "Head Race", "value": "Monkey" },
+                { "trait_type": "Bottom Race", "value": "" },
+                { "trait_type": "Face", "value": "Cat Blushed" },
+                { "trait_type": "Shininess", "value": "" },
+                { "trait_type": "Accessories", "value": "" },
+                { "trait_type": "Background", "value": "Nyanza" },
+                { "trait_type": "Human Bottom", "value": "" },
+                { "trait_type": "Hairstyle", "value": "" },
+                { "trait_type": "Human Skin Tone", "value": "" },
+                { "trait_type": "Cat Color Type", "value": "" },
+                { "trait_type": "Token", "value": "Skull" },
+                { "trait_type": "Method", "value": "Natural" },
+                { "trait_type": "Set", "value": "Nah" },
+                { "trait_type": "Set Type", "value": "" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Async Art",
+        "contract_ticker_symbol": "ASYNC-V2",
+        "contract_address": "0xb6dae651468e9593e4581705a09c10a76ac1e0c8",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xb6dae651468e9593e4581705a09c10a76ac1e0c8.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "1344",
+            "token_balance": "1",
+            "token_url": "QmUzUdyK7YYAyPb13f1qPADDp7saN4WnYnN65JfhiNG9xh",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Galaxy",
+              "description": "Maalavidaa's artworks are bright burning and collapsing galaxies.",
+              "image": "https://lh3.googleusercontent.com/e8zQNl_ZSs9SNM_62gYu_TA4ZhrNTxZMbq1fhq9ujU5kqp2qogy3tf6ga-fLk1hMW8rdhJeuryE3U0SWbHTOroP10Ot9FJdxQlMgL-E=s128",
+              "external_url": "https://api.opensea.io/api/v1/asset/0xb6dae651468e9593e4581705a09c10a76ac1e0c8/1344",
+              "attributes": [{ "trait_type": "Artist", "value": "Dformer // Gabor Molnar" }],
+              "owner": "maalavidaa"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 4,
+        "contract_name": "FRIENDS WITH BENEFITS",
+        "contract_ticker_symbol": "FWB",
+        "contract_address": "0x7d91e637589ec3bb54d8213a9e92dc6e8d12da91",
+        "supports_erc": ["erc20"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x7d91e637589ec3bb54d8213a9e92dc6e8d12da91.png",
+        "type": "cryptocurrency",
+        "balance": "550000",
+        "quote_rate": null,
+        "quote": 0,
+        "nft_data": null
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "FoxPunk Jrs",
+        "contract_ticker_symbol": "FOXPUNKJRS",
+        "contract_address": "0x9efa7962ccb25884587526c0ce8bffab2622976b",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x9efa7962ccb25884587526c0ce8bffab2622976b.png",
+        "type": "nft",
+        "balance": "10",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "44",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/44",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #44",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/44.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "silver" },
+                { "key": "Fur", "trait_type": "Fur", "value": "cherry" },
+                { "key": "Hat", "trait_type": "Hat", "value": "taisho" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "maid" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "fugi" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "45",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/45",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #45",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/45.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "arctic" },
+                { "key": "Fur", "trait_type": "Fur", "value": "teal" },
+                { "key": "Hat", "trait_type": "Hat", "value": "egypt" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "taisho" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "waldo" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "46",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/46",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #46",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/46.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "pale" },
+                { "key": "Fur", "trait_type": "Fur", "value": "ice" },
+                { "key": "Hat", "trait_type": "Hat", "value": "kitty" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "household-divisions" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "star" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "47",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/47",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #47",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/47.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "fennec" },
+                { "key": "Fur", "trait_type": "Fur", "value": "yellow" },
+                { "key": "Hat", "trait_type": "Hat", "value": "arrow" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "swim" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "fugi" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "48",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/48",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #48",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/48.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "pale" },
+                { "key": "Fur", "trait_type": "Fur", "value": "ice" },
+                { "key": "Hat", "trait_type": "Hat", "value": "maid" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "sherlock" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "waldo" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "49",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/49",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #49",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/49.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "bat" },
+                { "key": "Fur", "trait_type": "Fur", "value": "darkblue" },
+                { "key": "Hat", "trait_type": "Hat", "value": "ghost" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "magic" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "sunshine" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "50",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/50",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #50",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/50.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "pale" },
+                { "key": "Fur", "trait_type": "Fur", "value": "khaki" },
+                { "key": "Hat", "trait_type": "Hat", "value": "angel" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "ghost" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "scarf" },
+                { "key": "Background", "trait_type": "Background", "value": "fugi" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Holy heaven fox !" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "41",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/41",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #41",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/41.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "bat" },
+                { "key": "Fur", "trait_type": "Fur", "value": "lightblue" },
+                { "key": "Hat", "trait_type": "Hat", "value": "egypt" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "mozart" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "undertree" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "42",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/42",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #42",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/42.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "fennec" },
+                { "key": "Fur", "trait_type": "Fur", "value": "yellow" },
+                { "key": "Hat", "trait_type": "Hat", "value": "chef" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "sherlock" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "smoke" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "43",
+            "token_balance": "1",
+            "token_url": "https://foxpunkapi.herokuapp.com/url/43",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "FoxPunkJrs #43",
+              "description": "A fox with a special taste in dressing.\nThough it's pretty cute,\n but the taste of a fox remains questionable",
+              "image": "https://gateway.pinata.cloud/ipfs/QmX5Eed1FUW9FJYyBLG2P8MT3kjLcRxioDtpdNsP6asVzH/43.gif",
+              "external_url": "https://foxpunkapi.herokuapp.com/",
+              "attributes": [
+                { "key": "Specie", "trait_type": "Specie", "value": "pale" },
+                { "key": "Fur", "trait_type": "Fur", "value": "sesame" },
+                { "key": "Hat", "trait_type": "Hat", "value": "kimono" },
+                { "key": "Clothes", "trait_type": "Clothes", "value": "swim" },
+                { "key": "Accessory", "trait_type": "Accessory", "value": "None" },
+                { "key": "Background", "trait_type": "Background", "value": "metro" },
+                { "key": "Effect", "trait_type": "Effect", "value": "Nope" },
+                { "key": "Set", "trait_type": "Set", "value": "Nah" }
+              ],
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "FND NFT",
+        "contract_ticker_symbol": "FNDNFT",
+        "contract_address": "0x3b3ee1931dc30c1957379fac9aba94d1c48a5405",
+        "supports_erc": ["erc20", "erc721"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x3b3ee1931dc30c1957379fac9aba94d1c48a5405.png",
+        "type": "nft",
+        "balance": "32",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "5021",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmTTzFHMKJq9H8rnrqVosC69gdAi4hw2Fg7w8arHKm33dc/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Homieori",
+              "description": "Loneliness is an addiction for artists. I want to go on holiday but I want to stay home forever. Be the turtle you always wanted to be.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmSDc2C3C1CTE3S3tW3AQkSHtDg53qAVKUqE4Ujpm8rkox/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "7442",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmYEsB4qH5KPhESf8bBF4xNSEARUrUkB4dLSKVdtw7VfUr/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Hidden emotions",
+              "description": "Each style hides an emotion. It's up to you to interact and define which feelings that are hidden behind these styles, bitmap and colourshapes.\n\n3000x3500px\nRembagram, 2021.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmcvVbhjDTEx1UgyLmLDtEUBbDmWKVU9mCooPixPh1AbP6/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "8055",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmevtZourBHDyArzxuu9hpqCXNG1AaoBwQyg5qAYuDZnQp/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Final Human  スカイベース(Skybase)",
+              "description": "First Mint. \n\n1/1\n\n8000x4000 300 DPI.png\n\nThe person who gets the final auction, I will send the design in high resolution.\n\n© 2021 DPD YEAR 20??™  \n\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmRE9puqU13Vc3PsWQdTBmNvupCTsFgRhtbU9nYf2ZtoJG/nft.png",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1143",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmfLzQTHE7vJk54cocdoSoPLj8WrJxYNw5rETFT5L2UaqR/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Technicolor.1-3",
+              "description": "Technicolor.1-3 - An homage to Technicolor, the motion-picture process using dye-transfer techniques to produce a colour print. The Technicolor process, perfected in 1932, originally used a beam-splitting optical cube, in combination with the camera lens, to expose three black-and-white films - first piece in a series of 3\n\nHigh resolution still, 2560 x 2560 px",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmSN4EU58NaBcx1VpeMXF2nepFGWtMU95XSTz6sQ9kpBTd/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "3085",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmbxS81RB191EywJFJuYh4GCZt5X6CNcctvPngEGgrPBq1/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Here If You Need Me",
+              "description": "Nostalgic for nowhere.\n\nDigital Composition\n3600x3600",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmUxqTQPpyyDB4LZdP3u1tKLYsodhtEQSwS1PZdhwCnayb/nft.png",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "2504",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmSbuo6BX3Kj4fpQmFmTT4zNgmvwPJ9UNorqiAuXWkgBVn/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": " \"Vernunft\"",
+              "description": "When I look at this situation\nOut there without you\nIt just breaks my heart\nYou just seem to be lost.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmQST6sry6NVHMtXSjtT41wms3bPFVTQLHDAUXrcQe1uu2/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1734",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmVWMAUJpcn2WmSZC4b1C6eBWX32AE4aGbKyD77p22YAT9/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Baugasm Day #211 ",
+              "description": "This is Day #211 from latest Baugasm Season",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmSGq5DnRSZxwzSBaFH9BYG4WvngBkpoyQ45GHazyR422B/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1799",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmZ4JKH73nx8p97kPHGA8zxgGMYt7QrZ1jx1mmrsKnNmYb/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "CYBER FAIRY",
+              "description": "This work is the product of combining photography and digital drawing in Procreate on the iPad Pro.\nCYBER FAIRY is a symbiosis of Cyberpunk and Fantasy.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmbkJ3VqcppBs4RxbhJSjobz481HMwteXyTGYAzL7A1Qmd/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1972",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmTacKeiWNE5yGkg7uyzc5tXV1KQQF6zU81i5Y5HcJuCza/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Aura Wave",
+              "description": "Title: Aura Wave\nDuration - 8s looping Video\nCreated With - Cinema 4D  & Octane\nFormat - 1080x1920, 24fps\nYear - 2021\nUnlockable Content - ProRes 422 HQ Video File ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmZKMzwT3wZbFY6jJsooHtWKKsWfDfSb5Fm4A8NKpvkGu5/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "2500",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmNegwFT92LF5KrfHQL1J74cMdyeE4JEdGtW4PVTGLBJSS/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Lazy sunday",
+              "description": "American car bathing in the sun.\nCaptured on 120 film.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmNN9QNo5vr7JQ8ZkdwunkoyiExgKqrSPhFYEtRz7zCjHY/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "434",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmcYiBmoBQUgVjHko5vvjwHDGSzF9rQ5UGYpmqKAG42eRb/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "An Allegory of Truth & Time",
+              "description": "The scene is inspired by an old oil painting by the amazing Annibale Carracci - An Allegory of Truth & Time (c. 1584-85) - the story involves a few characters: Truth, Time, Deceit, Happy-End and Good-Luck. The moral of the painting would seem to correspond to two famous sayings (also current in English): 'The truth will out' and 'All's well that ends well'.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmZCauGr4vdVKvb3wam2YQitjsUs3SB5cqx1HooMKGwg7s/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "599",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmbnPMEnSZKFwuU8RkNqfqUogfecSFwt7xk1oV7Jun2WLp/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "𝕻𝖗𝖔𝖈𝖊𝖉𝖚𝖗𝖆𝖑 ₀₀₀.",
+              "description": "A buttery smooth psychotropic viewing experience.\nPart of the Procedural Series - 1/1\n60FPS loop. ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmZ3wW4aZ9qGjKtF2CDEXYJyyfPzB8fsuvhXV8RNYEdzL9/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "897",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/Qmd2h8uTznoxAojUKPqtV6QKx934gZGVPJmaQBBEcKGwL4/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "VEE 2",
+              "description": "The crisp winter air. Sunlight casts its ugly shadow. Warmth in name alone. Distant and cold. As ever before.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmXeRczfJAZqpoe2GyfdmF2zsuGGWA7Xs2dzG98w8KifsM/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "779",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmbngKtz1sQKdDKnGgcdxtyPmRaCNoA9BPxwiopj3T4DeG/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "The Peculiar Interface",
+              "description": "Some goblins fetishize the idea of alien abduction as an escapist fantasy. Should we be so fortunate as to be teleported onboard the operating table of an extraterrestrial craft, we might simultaneously learn that we are not alone in the universe, and that of all goblin-kind, we were selected as the optimal specimens for dissection. And when we awaken the following morning, our existential loneliness forever quelled, we will scratch our peculiar scars, look to the skies, and smirk knowingly.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmfMz986Vm6T8MxSdS7ZjWdxnr9AeLGbcn8TGtwmsXiiRa/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "5853",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmbtKi5qCNrd6mhPksDGojpXd7PDETiWxTaa6F8f8hokuY/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Snakes Does Cry",
+              "description": "Original artwork.\n2000x2000px + 300dpi\n\n#001.2021",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmXmLZhop5VhLJvTxebxrEBjRu9S2fmw8s518BAPx1HYLa/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "9639",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmYveYyBtS5xKj3aAcBKfDeWFCzJv87G4NKuF9vrhTKucP/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Gaze",
+              "description": "My first NFT, edition 1 /1 \n\nThe visual is a play on the similarities between the micro and macro, where textures captured on a micro level are composed to represent something much larger.\n\nOriginal file size: 7952 x 5304",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmaX8W64Cq3AciXnQdCBykLHBjQEkAhfqsDTeZAaepfSUf/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "879",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmV4Aw223bXM2NYmZADaPviPS6bz3Efw5rp9WARhDeoB3T/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Lake County",
+              "description": "meaning makers and idea holders\n\n3489 X 5000 px",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmRAQMxX4UDWqyhdg3JqPqowrm1gvsdWNmxeo6Lv13Rw3Y/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "14432",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmaHsVJgFGGKQpSPNJPEaSuz5FeEw9cBZMMvxjPwsZeUuC/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Still Life 05",
+              "description": "Created as part of an ongoing series of digital still life images.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmZtK1DFhD2Z9pV5q31GCnbBjFb2AVjKPBZCrdrxi3QGm1/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "3636",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/Qmf5Y4JnikM3wEv6GEjJSLbhoZ7qhddSVC2eG2254ziA9T/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "We are all Jerry",
+              "description": "Jerry is connected to the universe. We are all Jerry. \n\nHe enjoys meditation, has a pet frog and plays the flute.\n\nJerry was designed in 2D, sculpted and animated in 3D and soundtracked with specially composed music just for him.\n\nThe winning bidder of Jerry will receive a high-resolution 4K loopable render, the very first original sketch, the colored concept art (first created in 2018) and the music track.",
+              "image": "https://cloudflare-ipfs.com/ipfs/Qmb8TWictBrx8eSxD117koRwQbzvwjzXi8yUCnES6rT3gi/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "6484",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmPxqqyoqC7xmmbTQvEoudiRGvK4u2tgZPzBqy9SysuEGT/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Torn #1",
+              "description": "The main abstract photo from my project «Torn» where I explore the beauty in shattered CDs.\nBy destroying the discs and photographing them up close, I give this dead-end technology new life—as psychedelic entertainment for the eyes. There is not a drop of any paint here, only the phenomenon of interference. My passion for abstract photography allows me to convey the feeling of how unreal, fantastic can be an ordinary subject from our everyday life.\n7000x4670px jpg",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmRDnxU1xfaPR3f1s5NYxFRqLKEZfgzKGFPTtj62bUgm68/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "8485",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmSs7yEK4Z9ShqZe4qjpW87i9ERBUHtiV1Z92neXgA8RyD/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Ethereal Blooms I",
+              "description": "This on-going series explores new 'digital painting' techniques. Using data harvested from artworks Leif created and processed into digital brush sets – These are then re-processed to create and capture new paintings in flux. \n\nChallenging the ideas of what painting is in a modern context, this series consolidates over 10 years work as a digital artist. Leif looks to push boundaries and redefine art in the modern age.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmZ8fD1bJ7ezwWHk7yH8QoYaE68AU4FsEizrB12F6JevDm/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "4860",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmaZzW22fSrszzxCX6zKsrBBiwjxGYk6maqZSphDXeUQMF/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "GOODNIGHT✨",
+              "description": "2000x2000PX\n1 of 1\n\n// IWANTTOGOTOPARIS //",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmTqzMvJwiJP7Ro3VYmVrPVKAhiAnR8GXXsT68PLNikUjZ/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "4641",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmZ2h9ZNq99QgqVoLwig39VEiio4TfkTng2CiA7DkdfLs7/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Aura Wave II",
+              "description": "Title: Aura Wave II\nDuration - 8s looping Video\nCreated With - Cinema 4D & Octane\nFormat - 1080x1920, 24fps\nYear - 2021\nUnlockable Content - MP4 Video File",
+              "image": "https://cloudflare-ipfs.com/ipfs/Qme7BdQNnWXKxSzggeJFtZQ1gyNHq5mkE1zajin8AYQ1bM/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "5730",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/Qmf5p1bjzeChYr1EAD3A8phUhkAKRn4DHTneGv8JmmsuvV/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "New Energy",
+              "description": "20s .mp4 2480x1080\n\n1/1\n\nExcerpt from a 1 minute 15 second 4k loop. Buyer will receive a download link to the high-res, full-length video.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmWBtfGFf8Zn4n5ZgAvRpKkXs1Xkjdah53E3F3QGM3fQA9/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "583",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmSXSr6yNm7sd8G5KMFHK1Djbtqm9cMAwcPUBCaD8hN9Ho/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Lost Paradise",
+              "description": "“Did I request thee, Maker, from my clay\nTo mould me man? Did I solicit thee\nFrom darkness to promote me?”\n\nJohn Milton,\nParadise Lost",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmXWo8Qt9Zou8E3Qi7C1UWHge7s7zGiSb2vSiakn33UW5V/nft.png",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1127",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmczoozuYdqJVfrN9CcZCRXkapef4nU4Le5cZ4ApEpmTRM/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Coldheart",
+              "description": "Companion piece to Firesoul.\nDistortion everywhere.\n\n2000x2000 180 frames, 30 fps\nCinema4D/Octane/After Effects ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmWAaEqdoxnAjPmQibDB4vfawNhnSCYxAMVKfY9N1BPDMp/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1589",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmNzk1TGTpDH2vzNzg5aiCRdpCQz4QRCM9xkuPdWGWUKpV/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "عُزْلة",
+              "description": "Ozla | عُزْلة\n1 out of 3",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmRdX8YVTxJTQaAXeRFB6ZjtGpyQaHVvrEN1hV11DFLh3J/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "3543",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmcP63riLeiqYXFoRMqPAqJvrYS1eLiofMM3YXxjN54Hoc/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "275$UICIDE // ETERNAL GREY 🗡️",
+              "description": "2000x2000PX\n1 of 1\n\n// ETERNAL GREY //",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmVPddWMfdETgk11ucnMiYWoUAEV1nhf4X9g3jjp5wsq6e/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "2234",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmRKN8FetJNaDygJT26o7H7htGd22KWFyjZVGNZn8zSKgd/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "A surface of dreams",
+              "description": "A digital escape based on archived memories.\n\n1 of 1\n\n2500x3125\n\n© 2020 Fizah Rahim",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmdWrCGFsPT9eBogC3rKY7fjwBenewFMkefzx26KS495m8/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "14324",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmSLsnJuX8mjCstcXnCCmJVqk9xf7mjZQsx8VfmTbSXdKi/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Alura ",
+              "description": "A psychedelic piece inspired by the allure of aposematic coloration found in plants and the natural world.\n\n~~~~~\n\nAll details and elements in this piece are purely photographic, which have been carefully cut out and arranged into a floral composition, then digitally animated and colour graded.\nThe creative process is a very meditative experience, which is transmitted from the final result to the viewer as a hypnotic loop.  \n\n~~~~~\n\n2160 x 2160\nDigital flora loop\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmYprAgHA2pFnF8XpuAbKUog6ja9xWqFQNoU3ysmQnLCXc/nft.mp4",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "1707",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmY2euxdK6C5iWHpSvbv3omAjok7tyzfK5q1FNviUTv67b/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Procedural Trance",
+              "description": "4000 x 5000",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmVpnzHapVcucBpx4GtGwJnxUz5WyNhRM2GofxptsbKo5K/nft.jpg",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          },
+          {
+            "token_id": "22631",
+            "token_balance": "1",
+            "token_url": "https://ipfs.foundation.app/ipfs/QmWj8MyfNHZxDkjhvQ3WAWBThwxmmXTS9E7o6nJXZXsrG9/metadata.json",
+            "supports_erc": ["erc20", "erc721"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Witch",
+              "description": "//\"Into the warm darkness\" series\nLimited digital artwork.\n4K 3840x2160\nby Ivan Solyaev",
+              "image": "https://cloudflare-ipfs.com/QmaeDuTrhrgkScC1qVyTb69Qa9anfVf7oyw3CSaRokMG5a/nft.png",
+              "external_url": null,
+              "attributes": null,
+              "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+            },
+            "owner": "0xcc6f3815128b7b4655b1487fd521a79af45fa1af"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "OpenSea Shared Storefront",
+        "contract_ticker_symbol": "OPENSTORE",
+        "contract_address": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+        "supports_erc": ["erc20", "erc1155"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x495f947276749ce646f68ac8c248420045cb7b5e.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "37263823721288479923198587851438221371355547284428855861352502305386705977345",
+            "token_balance": "1",
+            "token_url": "https://api.opensea.io/api/v1/metadata/0x495f947276749Ce646f68AC8c248420045cb7b5e/0x{id}",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Ephysia",
+              "description": "Ephysia Eternal.\nBorn in the dark.\nTranscending moments.\nA luminous spark.\n\nThe ancient technology.\nCreated with wonder.\nA modern artifact.\nOf Destiny's hunter.\n\nThe flame of the righteous.\nEncoded within.\nWith rivers of water.\nLiving in Him.\n\nEphysia Eternal.\nGrown in the light.\nAwaken o' dreamer.\nBurn through the night.\n\n\n----------\n\nSeven Track Album:\n\n1. Before I Go\n2. Ice Stream\n3. [E]uphoria\n4. Moon Pool\n5. Reproduction\n6. Shadows of Intention\n7. Constellation Kings\n\n",
+              "image": "https://lh3.googleusercontent.com/WV19Uj34Sqq-maA5n0I3Xf9F_m2KLqAa7A74SUucs_XJuHirzV5ch56swp4jv4ORV6eYgRhjmRbFGyZgrSg1TBpx-k9wVVWcrG14Dw=s128",
+              "external_url": "https://api.opensea.io/api/v1/asset/0x495f947276749ce646f68ac8c248420045cb7b5e/37263823721288479923198587851438221371355547284428855861352502305386705977345",
+              "attributes": [],
+              "owner": "NullAddress"
+            },
+            "owner": "NullAddress"
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Cryptimon Eggs",
+        "contract_ticker_symbol": "EGGS",
+        "contract_address": "0x62ae9df5bb1b49e3bb65702bfcc980c6e8e58562",
+        "supports_erc": ["erc20", "erc1155"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x62ae9df5bb1b49e3bb65702bfcc980c6e8e58562.png",
+        "type": "nft",
+        "balance": "1",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "4",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmRYV2t8pujQVGb3PPFfCQMokLHa4LLJojiX6zHN3ULwTP",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "#007 - Bloss Egg",
+              "description": "Beautiful yet strong, the thick pink petals covering this Nature egg provide a shield for the young Cryptimon that grows within.\n\nwww.cryptimon.com\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmX4sujnZt34bMYHnT6b1pLKDcbGreDSyRhMcyLS3CYWDr/image.jpeg",
+              "external_url": "https://rarible.com/token/0x62ae9df5bb1b49e3bb65702bfcc980c6e8e58562:4",
+              "attributes": [],
+              "owner": null
+            },
+            "owner": null
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Cryptimon",
+        "contract_ticker_symbol": "FXIV",
+        "contract_address": "0x95f862fba8879a2795a67ae556eefc3bd6302bce",
+        "supports_erc": ["erc20", "erc1155"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0x95f862fba8879a2795a67ae556eefc3bd6302bce.png",
+        "type": "nft",
+        "balance": "2",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "1",
+            "token_balance": "2",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmVbM5jehp8mwaJE6RjFo8Vq14goxwAqZQ2CYcgwnYNWX9",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Cryptimon Coin",
+              "description": "To celebrate the beginning of the Cryptimon Universe and represent a promise of 100 Monsters!",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmSu8urQtdNfpsCUgUywNuHLxrEr3Vrsx7kMYbmh9ekufe/image.gif",
+              "external_url": "https://app.rarible.com/token/0x95f862fba8879a2795a67ae556eefc3bd6302bce:1",
+              "attributes": [],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "5",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmUEb2GWG2Wqy3KRyWnTRhXGJ32uPxvH6h5zVZSQNMuoUk",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "#007 - Bloss - Cryptimon",
+              "description": "Monster\n\nElement: Nature\n\n\nIts tail is fused with the seed of a cherry blossom, issuing a powerful scent that attracts nearby Cryptimon. However, Bloss’ shy temperament and excellent camouflage means they rarely pinpoint the source of the smell.\n\nwww.cryptimon.com\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmYxRVrbGegQdSydY384XY45EUipyGwJca9q4BNK7zJpLj/image.jpeg",
+              "external_url": "https://rarible.com/token/0x95f862fba8879a2795a67ae556eefc3bd6302bce:5",
+              "attributes": [],
+              "owner": null
+            },
+            "owner": null
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Pipps",
+        "contract_ticker_symbol": "Pipps",
+        "contract_address": "0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195",
+        "supports_erc": ["erc20", "erc1155"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195.png",
+        "type": "nft",
+        "balance": "11",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "11",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmQR5sXP4QdDq8LLKiqCFVxRWr274ys3ac1tQ3BUG9M3fP",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipps #005 Crocco Bau",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine as well 💖\nAfter purchase, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmT79qxTXw6ySmwTyc6KU7BUih4Lg3XUGUUdbL5qpgRD5H/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:11",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Crocco Bau" },
+                { "key": "Collection ", "trait_type": "Collection ", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "005" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" },
+                { "key": "Author", "trait_type": "Author", "value": "Silvia Puff" },
+                { "key": "Notes", "trait_type": "Notes", "value": "Be nice to this grumpy fella, he is a sweethart" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "14",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmWaLQXEtoXPDZZNssQkb6pqC7tP6iUihxmTqz5bugufJx",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #006 Shuga Bun-Bun",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmVo6SmdC2RkjSdkWNh8y1JJoTH75E9FYLJkBeUtC6hSXv/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:14",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Shuga Bun-Bun" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "006" },
+                { "key": "Author", "trait_type": "Author", "value": "Silvia Puff" },
+                { "key": "Notes", "trait_type": "Notes", "value": "yes, she is made of shuga" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "3",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmNxj1hPJnDP4dCMN6MCqXhUd4iPiUx56dAccADnuPfj3D",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipps #003 Froggo Chic",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine as well 💖\nAfter purchase, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmUCAnQFgQnxRt4ZUBN8N4RY8z74FNaPCkV46KZVnD7Xqy/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:3",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Froggo Chic" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "003" },
+                { "key": "Author", "trait_type": "Author", "value": "SilviaPuff" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "16",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmPzCKSPcw9G7ratJJSDbNBxoTvuNS61BoCTynxAx5k8g1",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #007 Jymmy Muscle",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmPPaZVhJKonteyrP3KTfyU7HLtxSRs4HNLcHjxYAXBHYW/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:16",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Jymmy Muscle" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "007" },
+                { "key": "Author", "trait_type": "Author", "value": "Silvia Puff" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" },
+                { "key": "Notes", "trait_type": "Notes", "value": "Buff but squishy" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "17",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmbSn8z3xfBURmaBPkyP4QoR7aV8EePzgTheAhVL2S6Q4U",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #008 Splosh Splash",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmW7jsgCMV9VNhAYq1XX17SkH9A5dqjNYjF6Lz4KnW4xFV/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:17",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Splosh Splash" },
+                { "key": "#", "trait_type": "#", "value": "008" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" },
+                { "key": "Author", "trait_type": "Author", "value": "Silvia Puff" },
+                { "key": "Notes", "trait_type": "Notes", "value": "Big brother of Babi Pipp 001 Splish" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "8",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmXxQ5kkCMJSgG6gHXwmoHzsuerWiMsdvtUqUBEUaygS77",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipps #004 Panta Pasta",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine as well 💖\nAfter purchase, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmTkCPK46HVYXoFTJEtS8h1moA9rHkkyLBtj79x6bnHdoo/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:8",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Panta Pasta" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "004" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" },
+                { "key": "Author", "trait_type": "Author", "value": "SilviaPuff" },
+                { "key": "Notes", "trait_type": "Notes", "value": "Very cheeky" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "20",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmWJ7PdHULyswg45SETdENMdwAJQx4gm3hjrKFv9KHJkPH",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp Babi #001 Splish Splash",
+              "description": "This is the first one of the baby pipps! They are usually sibilings of other Pipps.\nFind the goodies attached.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmWvWwvrYmDcJTNohmd3hZAhnSQkKLvhy7Sh5rkCswDQyw/image.gif",
+              "external_url": "https://app.rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:20",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Splish Splash" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps Baby" },
+                { "key": "Number", "trait_type": "Number", "value": "001" },
+                { "key": "Author", "trait_type": "Author", "value": "Silvia Puff" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "21",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmSpEjZzMgVkeoWkqPXoc3fKt27UydSntc6VtzZkCoLjGN",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #009 Amber Babe",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmUmdXKGFDM92iJcN1eoJSn3d3MEGZKBStx6pnWbZiGYKz/image.gif",
+              "external_url": "https://rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:21",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Amber Babe" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "009" },
+                { "key": "Author ", "trait_type": "Author ", "value": "Silvia Puff" },
+                { "key": "Year", "trait_type": "Year", "value": "2021" },
+                { "key": "Notes", "trait_type": "Notes", "value": "(she is precious)" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "33",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmYCb8p3GpebFrEsxjUxpDZLvDbPb26vUX27BsYkYJHFjn",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #012 Bob Pluton Collab",
+              "description": "-Collab with Element Blocks-\nOne of the buyers will also receive the Element Block Plutonium.\nAdopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file. ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmP3s3kt6SWgCgvL9HP7wD7JhJTGkEGJBG48DvghtYRW9D/image.gif",
+              "external_url": "https://rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:33",
+              "attributes": [
+                { "key": "Name", "trait_type": "Name", "value": "Bob Pluton" },
+                { "key": "Collection ", "trait_type": "Collection ", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "012" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "39",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmQ4vwDcaaoNAbetVuKwjYwAdA8RY3mNEpz4P1B9yccnMd",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #013 Billy O'Naer",
+              "description": "Sound by @variendarkgirl\nAdopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file. ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmcDYQXS4r3nukmALfNgDhsnB9qKNBXCGdR7Pdjk4v2ArL/image.gif",
+              "external_url": "https://rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:39",
+              "attributes": [
+                { "key": "Music by", "trait_type": "Music by", "value": "@variendarkgirl" },
+                { "key": "Name", "trait_type": "Name", "value": "Billy O'Naer" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "013" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "30",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmWMUJccsehLtf2WpucN4496jC4YGDqVvxTpRSXApEddy1",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipp #011 Viky Wroom",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine too 💖\nAfter purchasing, you will have access to the 1080*1080 mp4 and GIF file. ",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmT7TagCvJiFZskUT5VAQ2W66QBj7qVvAxteEmNXDD3zH8/image.gif",
+              "external_url": "https://rarible.com/token/0xab7ff2afd4176f5d82d071e83c814a0dd7fb1195:30",
+              "attributes": [
+                { "key": "Name ", "trait_type": "Name ", "value": "Viky Wroom" },
+                { "key": "Collection", "trait_type": "Collection", "value": "Pipps" },
+                { "key": "#", "trait_type": "#", "value": "011" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          }
+        ]
+      },
+      {
+        "contract_decimals": 0,
+        "contract_name": "Rarible",
+        "contract_ticker_symbol": "RARI",
+        "contract_address": "0xd07dc4262bcdbf85190c01c996b4c06a461d2430",
+        "supports_erc": ["erc20", "erc1155"],
+        "logo_url": "https://logos.covalenthq.com/tokens/0xd07dc4262bcdbf85190c01c996b4c06a461d2430.png",
+        "type": "nft",
+        "balance": "4",
+        "quote_rate": 0,
+        "quote": 0,
+        "nft_data": [
+          {
+            "token_id": "346169",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmRvk58mkN3MAF93sV4ZwZYH3MsLsoWFePdfnvZ2kqRcfB",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "romantic#gurl",
+              "description": "Head: Light Purple, Rough\nEyes: One, Even\nNose: Zinc\nMouth: Zinc Lip\nBust: Red, Fuchsia Speckle, Cladding\nAccessories: Zinc Earring\nBackdrop: Black\nSeries: Couples (09)\n#: 01\n",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmQyisGRM3cVK9jgK12KRiC3MxN8CzMDdQTWa36LfPPKH3/image.png",
+              "external_url": "https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:346169",
+              "attributes": [],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "374486",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmU9wAFm72P1DPASCeAPJ8qg5VWzANSqoAueCxznfbrQjC",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "\"Shush..\" by Baugasm",
+              "description": "This is a special piece. With only 10 copies!",
+              "image": "https://lh3.googleusercontent.com/rJOn-VEoOQmjomitNeSHHYBk4T-Q2OELJQmCUlftMzn8hJrmoi73L5ZcZmYz_vYo6pANmpLoQ7IJ0qaOBnX0-ik1WRZNFUDhz0oPmQ=s128",
+              "external_url": "https://api.opensea.io/api/v1/asset/0xd07dc4262bcdbf85190c01c996b4c06a461d2430/374486",
+              "attributes": [],
+              "owner": "NullAddress"
+            },
+            "owner": "NullAddress"
+          },
+          {
+            "token_id": "382888",
+            "token_balance": "1",
+            "token_url": "https://cloudflare-ipfs.com/ipfs/QmZfyfV3WnMXmHRhSqVAmK4EwVxsDzwsTXKc2BECCaoBCx",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Caffeine — Cryptocules N°2",
+              "description": "Cryptocules™ is a series of Crypto Molecules as collectable by Nicogs.\n\nCaffeine is a central nervous system stimulant of the methylxanthine class. It is the world's most widely consumed psychoactive drug. Unlike many other psychoactive substances, it is legal and unregulated in nearly all parts of the world.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmcMkmv8CuHy58yr8kpXVhfhLxnqirc7kXompdtTJz6Tg8/image.gif",
+              "external_url": "https://rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:382888",
+              "attributes": [
+                { "key": "Molecule", "trait_type": "Molecule", "value": "Caffeine" },
+                { "key": "N°", "trait_type": "N°", "value": "2" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          },
+          {
+            "token_id": "142901",
+            "token_balance": "1",
+            "token_url": "https://ipfs.daonomic.com/ipfs/Qme41dyPVySomz1sK7S6jFxf1ngGUG8eoA8G3C9z9vMpVn",
+            "supports_erc": ["erc20", "erc1155"],
+            "token_price_wei": null,
+            "token_quote_rate_eth": null,
+            "external_data": {
+              "name": "Pipps #002 Pippi Seppi",
+              "description": "Adopt a Pipp and they will live in your wallet and bring you good luck, hopefully...if not, kick them out, that's fine as well 💖\nAfter purchase, you will have access to the 1080*1080 mp4 and GIF file, and to a live phone wallpaper of your Pipp.",
+              "image": "https://cloudflare-ipfs.com/ipfs/QmNQo5tCe4bRJyrcqMLLKg522DUQ3Dp46TbyRymytkmv1P/image.gif",
+              "external_url": "https://app.rarible.com/token/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:142901",
+              "attributes": [
+                { "key": "name", "trait_type": "name", "value": "Pippi Seppi" },
+                { "key": "collection", "trait_type": "collection", "value": "Pipps" },
+                { "key": "number", "trait_type": "number", "value": "002" },
+                { "key": "year", "trait_type": "year", "value": "2021" },
+                { "key": "copyrights", "trait_type": "copyrights", "value": "SilviaPuff" }
+              ],
+              "owner": null
+            },
+            "owner": null
+          }
+        ]
+      }
+    ],
+    "pagination": null
+  },
+  "error": false,
+  "error_message": null,
+  "error_code": null
+}
